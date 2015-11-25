@@ -1,0 +1,4 @@
+env: FORTH=gforth
+install: sh -e deps.sh install_${TRAVIS_OS_NAME:-linux}
+script: gforth test.fth | grep Test-OK
+sudo: required
