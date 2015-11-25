@@ -1,0 +1,9 @@
+box: ubuntu
+build:
+    steps:
+        - script:
+            name: install
+            code: sh deps.sh download_vfxforth
+        - script:
+            name: test
+            code: ./VfxLinEval/Bin/vfxlin include test.fth
