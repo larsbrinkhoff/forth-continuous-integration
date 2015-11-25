@@ -1,0 +1,11 @@
+machine:
+  environment:
+    FORTH: pforth
+
+dependencies:
+  override:
+    - sh deps.sh install_linux
+
+test:
+  override:
+    - pforth test.fth | grep Test-OK
