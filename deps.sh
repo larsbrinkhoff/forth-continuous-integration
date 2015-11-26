@@ -12,6 +12,13 @@ install_osx() {
   brew install ${FORTH:-gforth}
 }
 
+download_spforth() {
+  sudo apt-get update -yqq
+  sudo apt-get install -qy lib32gcc1 libc6-i386 wget
+  wget -q http://downloads.sourceforge.net/spf/spf-4.20.tar.gz
+  tar xzf spf*.tar.gz
+}
+
 download_vfxforth() {
   sudo apt-get update -yqq
   sudo apt-get install -qy lib32gcc1 libc6-i386 wget
