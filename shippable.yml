@@ -1,2 +1,2 @@
-install: sh -e deps.sh download_spforth
-script: echo 'S" test.fth" INCLUDED' | ./spf-4.20/spf4orig
+install: sh -e deps.sh linux spforth
+script: echo 'S" test.fth" INCLUDED' | ./spf*/spf4orig

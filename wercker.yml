@@ -3,7 +3,7 @@ build:
     steps:
         - script:
             name: install
-            code: sh deps.sh download_vfxforth
+            code: sh -e deps.sh linux vfxforth
         - script:
             name: test
             code: ./VfxLinEval/Bin/vfxlin include test.fth

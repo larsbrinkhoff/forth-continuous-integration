@@ -1,10 +1,6 @@
-machine:
-  environment:
-    FORTH: pforth
-
 dependencies:
   override:
-    - sh deps.sh install_linux
+    - sh -e deps.sh linux pforth
 
 test:
   override:
