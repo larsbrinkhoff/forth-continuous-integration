@@ -76,7 +76,7 @@ install_download() {
 }
 
 maybe() {
- "$1" || true
+  "$1" 2> /dev/null || true
 }
 
 forth="$2"
