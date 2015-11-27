@@ -1,0 +1,5 @@
+install:
+  - cmd: dir C:\
+  - ps: (new-object System.Net.WebClient).DownloadFile('http://www.forth.com/downloads/SwiftForth-Win32-eval.exe', 'C:\sf-eval.exe')
+  - cmd: C:\sf-eval.exe /SP- /VERYSILENT /SUPPRESSMSGBOXES
+build_script: C:\ForthInc-Evaluation\SwiftForth\bin\sf.exe test.fth
