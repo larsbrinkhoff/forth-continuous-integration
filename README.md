@@ -1,4 +1,4 @@
-Continuous Integration for Forth
+## Continuous Integration for Forth
 
 This is a template for running Forth in cloud-based hosted continuous integration services.
 
@@ -17,3 +17,12 @@ These Forth implementations are supported:
 [![SP-Forth](https://img.shields.io/shippable/5656a5321895ca4474245e90.svg?label=SP-Forth)](https://app.shippable.com/projects/5656a5321895ca4474245e90)
 [![lina](https://img.shields.io/snap-ci/larsbrinkhoff/forth-continuous-integration/master.svg?label=lina)](https://snap-ci.com/larsbrinkhoff/forth-continuous-integration)
 [![SwiftForth](https://img.shields.io/badge/SwiftForth-unknown-brightgreen.svg)](https://www.bitrise.io/app/f60bdf36bd956896)
+
+## VFX Forth Note
+
+**Commercial use of evaluation or Lite compilers is not permitted. If
+you sell an application written with VFX Forth, that is commercial
+use. If you are paid to write software with VFX Forth, that is
+commercial use. If you are a teacher and want to use VFX Forth in a
+class, that is commercial use, so contact us and we will give you
+written permission.**
