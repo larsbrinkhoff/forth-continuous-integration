@@ -1,0 +1,2 @@
+install: sh -e deps.sh linux gforth
+script: gforth test.fth | grep Test-OK
