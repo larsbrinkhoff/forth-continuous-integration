@@ -48,12 +48,6 @@ prepare_lina() {
   forth='http://home.hccnet.nl/a.w.m.van.der.horst/lina64-5.2.1.tar.gz'
 }
 
-prepare_swiftforth() {
-  $install wget
-  install=install_download
-  forth='http://www.forth.com/downloads/SwiftForth-linux-osx-eval.tgz'
-}
-
 install_apt() {
   sudo apt-get install -qy "$@"
 }

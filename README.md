@@ -16,7 +16,6 @@ These Forth implementations are supported:
 [![VFX Forth](https://img.shields.io/wercker/ci/larsbrinkhoff/forth-continuous-integration.svg?label=VFX Forth)](https://app.wercker.com/#applications/565611d38faa27fb0d13fe64)
 [![SP-Forth](https://img.shields.io/shippable/5656a5321895ca4474245e90.svg?label=SP-Forth)](https://app.shippable.com/projects/5656a5321895ca4474245e90)
 [![lina](https://img.shields.io/snap-ci/larsbrinkhoff/forth-continuous-integration/master.svg?label=lina)](https://snap-ci.com/larsbrinkhoff/forth-continuous-integration)
-[![SwiftForth](https://img.shields.io/badge/SwiftForth-unknown-brightgreen.svg)](https://www.bitrise.io/app/f60bdf36bd956896)
 
 ## VFX Forth Note
 
