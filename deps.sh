@@ -1,3 +1,13 @@
+# Install build and test dependencies.
+
+# This script takes two arguments:
+#
+# First, the operating system used by the continuous integration
+# service.  The script does some system-dependent preparations before
+# installing a Forth.
+#
+# Second, the Forth implementation to install.
+
 prepare_linux() {
   sudo apt-get update -yqq
   install=install_apt
