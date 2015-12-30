@@ -9,7 +9,7 @@ These services are supported:
 [![Shippable](https://img.shields.io/shippable/5656a5321895ca4474245e90.svg?label=Shippable)](https://app.shippable.com/projects/5656a5321895ca4474245e90)
 [![Snap CI](https://img.shields.io/snap-ci/larsbrinkhoff/forth-continuous-integration/master.svg?label=SnapCI)](https://snap-ci.com/larsbrinkhoff/forth-continuous-integration)
 [![Bitrise](https://www.bitrise.io/app/f60bdf36bd956896.svg?token=_RL3uOO0yD9gEebW-Tqr0g)](https://www.bitrise.io/app/f60bdf36bd956896)
-[![Magnum CI](https://magnum-ci.com/status/931be8985ad4a267a044416a1493795d.png)](https://magnum-ci.com/projects/3706)
+[![Magnum CI](https://img.shields.io/magnumci/ci/931be8985ad4a267a044416a1493795d.svg?label=MagnumCI)](https://magnum-ci.com/projects/3706)
 
 These Forth implementations are supported:  
 [![Gforth](https://img.shields.io/travis/larsbrinkhoff/forth-continuous-integration.svg?label=Gforth)](https://travis-ci.org/larsbrinkhoff/forth-continuous-integration)
