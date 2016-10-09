@@ -83,6 +83,12 @@ maybe() {
   "$1" 2> /dev/null || true
 }
 
+if test -n "$WERCKER_STEP_NAME"; then
+  sudo() {
+    "$@"
+  }
+fi
+
 forth="$2"
 prepare_$1
 prepare_$2
