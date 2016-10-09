@@ -43,7 +43,7 @@ prepare_pforth() {
 prepare_vfxforth() {
   $install $libs32 wget
   install=install_download
-  forth='ftp://public@soton.mpeforth.com/VfxLinEval/vfxforth-eval-4.72-0540.i386.tar.gz'
+  forth='ftp://public@soton.mpeforth.com/VfxLinEval/vfxforth-eval-4.72-0560.i386.tar.gz'
 }
 
 prepare_spforth() {
@@ -55,7 +55,7 @@ prepare_spforth() {
 prepare_lina() {
   $install wget
   install=install_download
-  forth='http://home.hccnet.nl/a.w.m.van.der.horst/lina64-5.2.1.tar.gz'
+  forth='http://home.hccnet.nl/a.w.m.van.der.horst/lina64-5.3.0.tar.gz'
 }
 
 install_apt() {
