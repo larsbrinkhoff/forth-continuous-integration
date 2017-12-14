@@ -31,6 +31,13 @@ prepare_gforth() {
   true
 }
 
+prepare_gforth_linux() {
+  sudo apt-get remove emacs || true
+  sudo apt-get remove emacs23 || true
+  sudo apt-get remove emacs24 || true
+  sudo apt-get remove emacs25 || true
+}
+
 prepare_gforth_centos() {
   sudo yum install libtool-ltdl-devel
   forth='http://download.opensuse.org/repositories/home:/forthy/CentOS_CentOS-6/x86_64/gforth-0.7.9_20131227-63.1.x86_64.rpm'
